@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Color Flipper Pro</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body class="light-mode">
+  <div class="background-animation"></div>
+
+  <h3>Color Flipper</h3>
+  <div id="color-code">Current Color: #ffffff</div>
+
+  <div class="btn-container">
+    <button id="green" onclick="setColor('green')">Green</button>
+    <button id="red" onclick="setColor('red')">Red</button>
+    <button id="blue" onclick="setColor('blue')">Blue</button>
+    <button id="random" onclick="randomColor()">Random</button>
+  </div>
+
+  <div class="theme-buttons">
+    <button onclick="setTheme('light')">☀️ Light Mode</button>
+    <button onclick="setTheme('dark')">🌙 Dark Mode</button>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
