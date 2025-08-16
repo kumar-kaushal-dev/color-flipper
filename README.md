@@ -16,6 +16,4 @@ Easily change the background color with preset options or generate random colors
 - CSS3
 - JavaScript (ES6)
 
-## 🔗 Live Demo
 
-[👉 View it on GitHub Pages](https://kumar-kaushal-dev.github.io/color-flipper/)
